@@ -1,6 +1,6 @@
 # Teste Front end
 
-Este projeto é uma loja feita com next.js, react query, typescript, estilizado com styled-components e feito teste com jest/testing-library
+Este projeto é uma loja feita com next.js, react query, typescript, estilizado com styled-components e feito testes com jest/testing-library
 
 
 ## Instalação
