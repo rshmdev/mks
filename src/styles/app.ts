@@ -3,8 +3,14 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-  height: 100vh;
-  padding-top: 6.3125rem;
+  min-height: 100vh;
+  overflow-y: auto;
+  padding-top: 6.7125rem;
+  padding-bottom: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const SectionProducts = styled.section`
@@ -17,27 +23,15 @@ export const SectionProducts = styled.section`
   align-items: center;
   justify-content: center;
 
-  padding-top: 6.3125rem;
-
   @media (min-width: 982px) {
     padding-top: 0;
   }
 `;
 export const GridProducts = styled.div`
-  margin-top: 17rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   width: 100%;
   gap: 2rem;
-  padding: 12rem 0 3rem 0;
-  @media (min-width: 732px) {
-    margin-top: 0rem;
-    padding: 10rem 0 3rem 0;
-  }
-
-  @media (min-width: 982px) {
-    padding: 0 0 0 0;
-  }
 `;

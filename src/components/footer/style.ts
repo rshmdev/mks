@@ -7,7 +7,7 @@ export const Footer = styled.footer`
   height: 2.125rem;
   background: #eee;
 
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
 
